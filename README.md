@@ -5,4 +5,4 @@ Itadakimasu
 
 I wanted to create a dynamic drop down menu without using any Javascript feature.
 
-==> CSS3 is powerful !
+Go on : http://stephanyan.github.io/Itadakimasu
