@@ -1,0 +1,160 @@
+body {
+	text-align: center;
+	background: url("images/background.jpeg");
+	background-size: cover;
+	background-position: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: auto;
+	font-family: 'Open Sans';
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none
+}
+
+/* bannière rouge */
+
+.header {
+	background: #C61A1A;
+	height: 150px;
+	padding: 20px;
+	top: 20px;
+	/*background-image: url("images/naruto3.png");
+	background-repeat: no-repeat;
+	background-position: 875px 5px;*/
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	margin-right: 600px;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 50%;
+	padding: 20px;
+	background-color: white;
+}
+
+#title {
+	font-family: 'Chinese Takeaway';
+	font-size: 4.375em;
+	color: white;
+	bottom: 150px;
+	margin-top: 40px;
+	margin-left: 90px;
+	position: relative;
+}
+
+#title2 {
+	font-family: Arial;
+	font-style: italic;
+	color: white;
+	bottom: 180px;
+	margin-top: 40px;
+	margin-left: 50px;
+	position: relative;
+}
+
+hr {
+	position: fixed;
+	position: relative;
+	border: none;
+	background: white;
+	width: 200px;
+	height: 2px;
+	bottom: 195px;
+	left: 20px;
+}
+
+#naruto {
+	height: 185px;
+	width: 185px;
+	top: 5px;
+	margin-left: 300px;
+	position: absolute;
+}
+
+/* menu principal */
+
+
+#menu1 {
+	position: center;
+	top: 110px;
+	background-color: #C61A1A;
+	background-size: 100%;
+	box-shadow: -1px 2px 20px 1px rgba(0, 0, 0, 0.9);
+	height: 35px;
+	margin: 10px auto auto auto;
+	padding: auto;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/*mise en page du menu*/
+
+#menu a { 
+    display: block;   
+    color: #fff;   
+    text-decoration:none;  
+}  
+#menu li, #menu li li {  
+    position: relative;  
+    display:inline-block;  
+    width: 110px;  
+    padding: 6px 15px;  
+    background: linear-gradient(#FFD204, #1506BE, #7F05710);  
+}
+
+#menu li li {
+	background: transparent none;
+}  
+#menu li li a {
+	color: #444;
+}  
+#menu li li:hover {
+	background: #eee;
+}  
+ 
+#menu li {
+	width: 200px; 
+}  
+
+#menu li:hover {  
+    background-color: #999;  
+    background-image: linear-gradient(white, blue, red, white);  
+}  
+
+/*mise en page et mise en cache de la liste deroulante*/
+
+#menu ul {  
+    position: absolute;  
+    top: 35px; 
+    left:0;  
+    max-height: 0px; /*caché*/
+    margin: 0;
+    padding: 0;  
+    background-color:#ddd;  
+    background-image: linear-gradient(silver, gold);  
+    overflow: hidden;
+    transition: 0.6s max-height 0.1s;  
+    border-radius: 0 0 8px 8px;  
+}
+
+/*affichage de la liste deroulante*/
+
+#menu li:hover ul {  
+    max-height: 500px; /*apparait*/
+}
+
+
+
+
+/*responsive design*/
+
+@media (max-width: 1001.6px) {
+	
+}
